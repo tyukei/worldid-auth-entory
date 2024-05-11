@@ -22,8 +22,8 @@ function WorldIDVerification() {
   return (
     <div>
       <IDKitWidget
-        app_id="app_staging_68ce21986417238cfca3d5a968338249"
-        actionId="action1"
+        app_id={process.env.REACT_APP_APP_ID}
+        actionId={process.env.REACT_APP_ACTION_ID}
         onSuccess={onSuccess}
         handleVerify={handleVerify}
       >
