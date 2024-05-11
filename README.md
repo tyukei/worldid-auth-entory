@@ -1,4 +1,4 @@
-# worldid-auth-entory\
+# worldid-auth-entory
 
 ## setup
 first time
